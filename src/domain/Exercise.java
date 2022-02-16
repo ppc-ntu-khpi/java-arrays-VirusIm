@@ -32,7 +32,7 @@ public class Exercise {
             }
             if(count <= 2)  //если кол-во делителей не привышает 2-х
             {
-                System.out.println("i = " + array[i] + ", count = " + count);
+                System.out.print("i = " + array[i] + ", ");
                 iLength++;
             }
         }while(iLength != array.length);
